@@ -5,6 +5,7 @@ In this repository, you can see courses for developers.
 ## Courses list
 
 1. [PL/SQL](./Oracle) In the course you will know about:
+1.1. Anonymous blocks;
 1.1. Exceptions;
 1.2. Branching;
 1.3. Cursors;
