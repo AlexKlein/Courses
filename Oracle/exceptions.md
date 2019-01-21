@@ -209,10 +209,12 @@ The first parameter is salary.
 The second parameter is the grade.
 
 Formulas for calculating the bonus:
+```
 0-10 grade:
 Salary * 12 * 0,08 * 1 * 1,3 * 0,87
 from 11 grade and higher:
 Salary * 12 * 0,15 * 1 * 1,3 * 0,87
+```
 
 For each branch of the solution, you need to write a message through the dbms_output package.
 It is necessary to do the processing of embedded exceptional operations:
