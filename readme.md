@@ -25,7 +25,9 @@ In this repository, you can see courses for developers.
 
 3. [Python](./Python) In the course you will know about:
 ```
-3.1. Connect, select, truncate, insert to DBMS
+3.1. Connect, select, truncate, insert to DBMS;
 3.1.1. Oracle;
 3.1.2. PostgreSQL;
+3.2. Create a connection based on the type;
+3.3. Create heterogeneous connections, select and merge data from them.
 ```
