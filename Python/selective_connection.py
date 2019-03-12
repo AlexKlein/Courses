@@ -85,7 +85,7 @@ def get_data(conn, query):
     return data_set
 
 
-def upload_data(data_set, conn):
+def upload_data_ins(data_set, conn):
     conn.execute("truncate table columns_table")
 
     for index, row in data_set.iterrows():
@@ -98,6 +98,17 @@ def upload_data(data_set, conn):
         )
 
 
+def upload_data_df(data_set, conn):
+   conn.execute("truncate table columns_table")
+
+   data_set.to_sql(
+       'columns_table',
+       con=conn,
+       if_exists='append',
+       index=False
+   )
+
+
 if __name__ == '__main__':
     connection, transaction = check_connect(DATABASE_TYPE)
     query = get_query(DATABASE_TYPE)
@@ -107,7 +118,7 @@ if __name__ == '__main__':
         query
     )
 
-    upload_data(
+    upload_data_df(
         data_set,
         connection
     )
