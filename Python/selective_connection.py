@@ -9,11 +9,11 @@ PG_HOST = 'localhost'
 PG_PORT = 5432
 PG_PASSWORD = 'system'
 
-ORA_USER = 'DMFRUA'
-ORA_PASSWORD = 'DMFRUA$10'
-ORA_HOST = 'bisrvzfs3'
+ORA_USER = 'HR'
+ORA_PASSWORD = 'HR'
+ORA_HOST = 'localhost'
 ORA_PORT = 1521
-ORA_SID = 'ZCMTST'
+ORA_SID = 'XE'
 
 
 def check_connect(type):
