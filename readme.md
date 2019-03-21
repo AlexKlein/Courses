@@ -30,4 +30,6 @@ In this repository, you can see courses for developers.
 3.1.2. PostgreSQL;
 3.2. Create a connection based on the type;
 3.3. Create heterogeneous connections, select and merge data from them.
+3.4. Create ETL process.
+3.4.1. From JSON to CSV.
 ```
