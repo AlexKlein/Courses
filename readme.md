@@ -32,4 +32,5 @@ In this repository, you can see courses for developers.
 3.3. Create heterogeneous connections, select and merge data from them.
 3.4. Create ETL process.
 3.4.1. From JSON to CSV.
+3.4.1. From CSV to XLSX.
 ```
